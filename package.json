@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "The Generation Of Unblocked Games..",
   "main": "index.mjs",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "scripts": {
     "start": "node index.mjs",
     "setup": "npm install && npm install @tomphttp/bare-server-node",
